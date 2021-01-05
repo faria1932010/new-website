@@ -12,3 +12,11 @@
 .name{
     font-family: 'Pirata One', cursive;
 }
+
+.half{
+    float: left;
+}
+
+.flex{
+    display: flex;
+}
