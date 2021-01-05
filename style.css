@@ -1,7 +1,7 @@
 /*
     font-family: 'Redressed', cursive;
     font-family: 'Pirata One', cursive;
-
+    font-family: 'Poppins', sans-serif;
 */
 
 .header{
@@ -11,12 +11,30 @@
 
 .name{
     font-family: 'Pirata One', cursive;
+    color: hsl(249, 25%, 30%);
 }
 
 .half{
+    width: 40%;
     float: left;
+    margin-left: 5%;
 }
 
 .flex{
     display: flex;
+}
+
+.half img{
+    height: 300px;
+    margin-left: 20%;
+    margin-top: 2rem;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+section.dream{
+    padding-top: 30rem;
 }
